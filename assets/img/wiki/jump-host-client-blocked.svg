@@ -89,7 +89,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="108.46124"
+     inkscape:cx="18.810202"
      inkscape:cy="68.665403"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -262,22 +262,6 @@
        inkscape:export-ydpi="86" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12027878px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="81.334251"
-       y="29.038187"
-       id="text935-0-0"
-       inkscape:export-xdpi="86"
-       inkscape:export-ydpi="86"><tspan
-         sodipodi:role="line"
-         id="tspan1607"
-         x="81.334251"
-         y="29.038187">firewall blocks incoming</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1609"
-         x="81.334251"
-         y="32.565964">connection from SSH client</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12027878px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="98.743988"
        y="55.452103"
@@ -346,5 +330,23 @@
          id="tspan995"
          x="145.42526"
          y="61.958107">Server</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12027878px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="92.899925"
+       y="32.449352"
+       id="text935-0-0"
+       inkscape:export-xdpi="86"
+       inkscape:export-ydpi="86"><tspan
+         style="stroke-width:0.12027878px"
+         sodipodi:role="line"
+         id="tspan952"
+         x="92.899925"
+         y="32.449352">firewall blocks incoming</tspan><tspan
+         style="stroke-width:0.12027878px"
+         sodipodi:role="line"
+         id="tspan954"
+         x="92.899925"
+         y="35.53616">connection from client</tspan></text>
   </g>
 </svg>
