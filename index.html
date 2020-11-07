@@ -8,8 +8,15 @@ layout: default
         <p style="text-align: center;"><img style="width: 240px;" src="assets/img/asbru-logo.svg" alt="Ásbrú Connection Manager"/></p>
         <p style="text-align: center; margin-top: 20px; font-size: 130%;"><i>Ásbrú Connection Manager</i> is a user interface that helps organizing remote terminal sessions and automating repetitive tasks.</p>
         <p style="text-align: center; margin-top: 30px;">
-          You can download our .deb/.rpm builds from our repositories sponsored by <br/>
-          <a href="https://packagecloud.io/"><img height="46" width="158" alt="Private Maven, RPM, DEB, PyPi and RubyGem Repository" src="https://packagecloud.io/images/packagecloud-badge.png" /></a>
+          You can download our .deb/.rpm builds from our repositories sponsored by
+          <div class="row">
+            <div class="col-md-6" style="text-align: center;">
+              <a href="https://packagecloud.io/"><img style="width: 150px;" alt="Private Maven, RPM, DEB, PyPi and RubyGem Repository" src="assets/img/misc/packagecloud-badge.png" /></a>
+            </div>
+            <div class="col-md-6" style="text-align: center;">
+              <a href="https://cloudsmith.com/"><img style="width: 150px;" alt="Fast, secure development and distribution. Universal, web-scale package management" src="assets/img/misc/cloudsmith-logo-color.png" /></a>
+            </div>
+          </div>
         </p>
       </div>
       <div class="col-md-8">
@@ -17,14 +24,14 @@ layout: default
         <h3>Debian / Ubuntu</h3>
         <div class="code-block">
           <code>
-            curl -s https://packagecloud.io/install/repositories/asbru-cm/asbru-cm/script.deb.sh | sudo bash<br>
+            curl -1sLf 'https://dl.cloudsmith.io/public/asbru-cm/release/cfg/setup/bash.deb.sh' | sudo -E bash<br>
             sudo apt install asbru-cm
           </code>
         </div>
         <h3>Fedora</h3>
         <div class="code-block">
           <code>
-            curl -s https://packagecloud.io/install/repositories/asbru-cm/asbru-cm/script.rpm.sh | sudo bash<br>
+            curl -1sLf 'https://dl.cloudsmith.io/public/asbru-cm/release/cfg/setup/bash.rpm.sh' | sudo -E bash<br>
             sudo dnf install asbru-cm
           </code>
         </div>
@@ -71,9 +78,17 @@ layout: default
       </div>
       <div class="col-md-6">
         <p class="donate">
-          You may also want to financially contribute to the project
-          <script src="https://liberapay.com/asbru-cm/widgets/button.js"></script>
-          <noscript><a href="https://liberapay.com/asbru-cm/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+          You may also consider supporting the project financially by donating with:
+          <div class="row">
+            <div class="col-md-6" style="text-align: center;">
+              Liberapay:<br/>
+              <script src="https://liberapay.com/asbru-cm/widgets/button.js"></script>
+              <noscript><a href="https://liberapay.com/asbru-cm/donate" title="Donate using Liberapay"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+            </div>
+            <div class="col-md-6" style="text-align: center;">
+              Cryptocurrency:<br/>
+              <a href="https://docs.asbru-cm.net/Contributing/Financial_Contribution/#cryptocurrencies" title="Donate using cryptocurrency"><img alt="Donate using cryptocurrency" src="assets/img/misc/crypto-donate.svg"></a>
+            </div>
         </p>
       </div>
     </div>
